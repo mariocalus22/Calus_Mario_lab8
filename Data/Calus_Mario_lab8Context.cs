@@ -19,5 +19,7 @@ namespace Calus_Mario_lab8.Data
         public DbSet<Calus_Mario_lab8.Models.Publisher> Publisher { get; set; }
 
         public DbSet<Calus_Mario_lab8.Models.BookCategory> BookCategory { get; set; }
+
+
     }
 }

@@ -5,14 +5,10 @@ using System.Threading.Tasks;
 
 namespace Calus_Mario_lab8.Models
 {
-    public class BookCategory
+    public class AssignedCategoryData
     {
-        public int ID { get; set; }
-        public int BookID { get; set; }
-        public Book Book { get; set; }
         public int CategoryID { get; set; }
-        public Category Category { get; set; }
-
-
+        public string Name { get; set; }
+        public bool Assigned { get; set; }
     }
 }
